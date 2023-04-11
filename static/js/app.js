@@ -109,7 +109,6 @@ function buildbarchart(sample) {
 
         // Set the layout
         let layout = {
-            title: `Top 10 OTUs Found in the Individual`,
             xaxis: { title: 'Sample Values' },
             yaxis: { title: 'OTU ID' }
         };
@@ -157,7 +156,6 @@ function buildbubblechart(sample) {
 
         // Set the layout
         let layout = {
-            title: "Bacteria Per Sample",
             hovermode: "closest",
             xaxis: {title: "OTU ID"},
             yaxis: {title: "Sample Values"}
